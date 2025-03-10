@@ -1,0 +1,66 @@
+/* @import url(' https: //fonts.googleapis.com/css2?family=Caveat:wght@700&family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap'); */
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('fonts/OpenSans-Regular-webfont.woff2') format('woff2'),
+  url('fonts/OpenSans-Regular-webfont.woff2') format('woff');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Comic Sans MS", cursive;
+}
+
+body {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  height: 100vh;
+  background-color: #5cb8d5;
+}
+
+.wrapper {
+  position: relative;
+  display: block;
+  background-color: #ecedef;
+  padding: 60px 30px;
+  background: url('img/0122.jpg');
+}
+
+.wrapper h1 {
+  font-size: 56px;
+  color: #b0156a;
+  font-family: "Caveat", cursive;
+}
+.wrapper h2 {
+  font-size: 32px;
+  color: #ffffff;
+  font-family: "Caveat", cursive;
+}
+
+.wrapper .countdown_timer {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.countdown_timer .timer {
+  padding: 20px;
+  margin: 20px;
+  background: #d80056;
+  box-shadow: 20px 20px 120px #d5c5c6, 2px 2px 120px #d5c5c6;
+  border: 3px solid #ffffff;
+  border-radius: 8px;
+  min-width: 100px;
+}
+
+.timer p {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 18px;
+}
